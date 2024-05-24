@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightpink;
+  overflow-y: hidden;
+  position: relative;
+}
+
+header {
+  padding: 2rem;
+  background-color: deeppink;
+  color: white;
+  font-size: 1.25em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0 0 1.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container h1 {
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.loginForm {
+  width: 30rem;
+  height: auto;
+}
+
+.loginForm input:not([type="submit"]) {
+  width: calc(100% - 1rem);
+  height: 4rem;
+  font-size: 1.25em;
+  padding-left: 1rem;
+  outline: 0;
+  border: 1px solid #cccccc;
+  margin: 0 0 20px 0;
+}
+
+.loginForm label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.loginForm input[type="submit"] {
+  width: 100%;
+  height: 4rem;
+  background-color: deeppink;
+  border: 1px solid deeppink;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.logout-btn,
+.login-header button {
+  background-color: deeppink;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid deeppink;
+}
+
+.login-header button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1em;
+}
+
+.logout-btn {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  font-size: 1.15em;
+}
+
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-card {
+  background-color: deeppink;
+  padding: 3rem;
+  width: 12rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.service-card:hover {
+  background-color: hotpink;
+}
+
+.service-card:first-child {
+  margin-right: 1rem;
+}
+
+.container a {
+  text-decoration: none;
+}
